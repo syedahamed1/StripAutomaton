@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2947" started-at="2019-09-24T08:46:07Z" finished-at="2019-09-24T08:46:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2947" started-at="2019-09-24T08:46:07Z" finished-at="2019-09-24T08:46:10Z">
+      <class name="com.stripe.stripautomation.testcases.Firsttestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="setup" is-config="true" duration-ms="336" started-at="2019-09-24T08:46:07Z" finished-at="2019-09-24T08:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postm(java.util.Hashtable)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="postm" duration-ms="2226" started-at="2019-09-24T08:46:07Z" data-provider="dp" finished-at="2019-09-24T08:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=asyedece@gmail.com, description=A234wd, accountbalance=1234}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postm -->
+        <test-method status="PASS" signature="beformethod(java.lang.reflect.Method)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="beformethod" is-config="true" duration-ms="0" started-at="2019-09-24T08:46:07Z" finished-at="2019-09-24T08:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.stripe.stripautomation.testcases.Firsttestcase.postm(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethod -->
+        <test-method status="PASS" signature="beformethod(java.lang.reflect.Method)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="beformethod" is-config="true" duration-ms="1" started-at="2019-09-24T08:46:09Z" finished-at="2019-09-24T08:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.stripe.stripautomation.testcases.Firsttestcase.postm(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beformethod -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-09-24T08:46:09Z" finished-at="2019-09-24T08:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postm status=SUCCESS method=Firsttestcase.postm(java.util.Hashtable)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="postm(java.util.Hashtable)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="postm" duration-ms="696" started-at="2019-09-24T08:46:09Z" data-provider="dp" finished-at="2019-09-24T08:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{email=asyedece1@gmail.com, description=A234wd, accountbalance=12345}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postm -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="aftermethod" is-config="true" duration-ms="0" started-at="2019-09-24T08:46:10Z" finished-at="2019-09-24T08:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=postm status=SUCCESS method=Firsttestcase.postm(java.util.Hashtable)[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.stripe.stripautomation.testcases.Firsttestcase@647e447]" name="teardown" is-config="true" duration-ms="0" started-at="2019-09-24T08:46:10Z" finished-at="2019-09-24T08:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.stripe.stripautomation.testcases.Firsttestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
